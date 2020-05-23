@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+    <script type="text/javascript">
+        google.load("visualization", "1.1", {packages:["wordtree"]});
+        google.setOnLoadCallback(drawChart);
+        function drawChart() {
+        var data = google.visualization.arrayToDataTable(
+        [ ['Фразы'],
+        ['кіт друг собаки'], ['кіт друг людини'], ['кіт хоче нявкати'], 
+        ['кітхоче спати зранку'], ['кіт хоче спати удень'], ['кіт хоче стрибати'],
+       ['кіт хоче їсти ковбасу'], ['кіт хоче їсти цукерки'], ['кіт хоче їсти мишей'], 
+       ['кіт хоче лазити у вікно'], ['кіт хоче лазити у шафу'], ['кіт хоче лазити на дерево'], 
+       ['кіт хоче лазити на паркан'], ['кіт хоче пити молоко'], ['кіт хоче пити сітро'], 
+       ['кіт гуляє удень'], ['кіт гуляє увечері'], ['кіт живе з людиною'], 
+       ['кіт живе довго'], ['кіт гуляє уночі'], ['кіт гуляє уночі один'],]
+        );
+        var options = {
+       maxFontSize: 14,
+        backgroundColor: '#F7F7F7',
+        wordtree: {
+        format: 'implicit',
+        word: 'кіт'
+        }
+        };
+        var chart = new
+       google.visualization.WordTree(document.getElementById('wordtree_basic'));
+        chart.draw(data, options);
+        }
+    </script> 
 </head>
 <body>
-    <h1>Hello worl!</h1>
-    <p>it's a new page</p>
+    <div id="wordtree_basic" style="margin-bottom:10px;"></div>
 </body>
 </html>
