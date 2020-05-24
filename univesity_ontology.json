@@ -7,21 +7,21 @@
     "baseIris": [
       "http://www.w3.org/2000/01/rdf-schema"
     ],
-    "iri": "http://visualdataweb.org/newOntology/",
-    "title": {
-      "en": "New ontology"
-    },
+    "iri": "http://exmple.org/UniversityOntology",
+    "title": "University Ontology",
     "description": {
       "en": "New ontology description"
-    }
+    },
+    "version": "Version 1.0.0",
+    "author": "Julia Ivanova"
   },
   "namespace": [],
   "settings": {
     "global": {
-      "zoom": "0.49",
+      "zoom": "0.53",
       "translation": [
-        353.1,
-        171.96
+        390.04,
+        188.83
       ],
       "paused": false
     },
@@ -76,8 +76,650 @@
       "colorSwitchState": false
     }
   },
-  "class": [],
-  "classAttribute": [],
-  "property": [],
-  "propertyAttribute": []
+  "class": [
+    {
+      "id": "Class2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId9",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId10",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId11",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId12",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId13",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId14",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId15",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId16",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId17",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId18",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId20",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId21",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class2",
+      "iri": "http://exmple.org/UniversityOntologyPerson",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Person",
+      "pos": [
+        -50.87,
+        518.01
+      ]
+    },
+    {
+      "id": "Class3",
+      "iri": "http://exmple.org/UniversityOntologyProfessor",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Professor",
+      "pos": [
+        263.05,
+        735.8
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://exmple.org/UniversityOntology",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Student",
+      "pos": [
+        280.5,
+        385.83
+      ]
+    },
+    {
+      "id": "Class5",
+      "iri": "http://exmple.org/UniversityOntologyUniversity",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "University",
+      "pos": [
+        996.91,
+        62.47
+      ]
+    },
+    {
+      "id": "Class6",
+      "iri": "http://exmple.org/UniversityOntologyFaculty",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Faculty",
+      "pos": [
+        612.95,
+        92.34
+      ]
+    },
+    {
+      "id": "Class7",
+      "iri": "http://exmple.org/UniversityOntologyDepartment",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Department",
+      "pos": [
+        622.5,
+        560.37
+      ]
+    },
+    {
+      "id": "NodeId9",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "pos": [
+        -126.61,
+        259.75
+      ]
+    },
+    {
+      "id": "NodeId10",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "pos": [
+        -160.39,
+        748.02
+      ]
+    },
+    {
+      "id": "NodeId11",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -279.23,
+        437.86
+      ]
+    },
+    {
+      "id": "NodeId12",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        785.16,
+        386.94
+      ]
+    },
+    {
+      "id": "NodeId13",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "pos": [
+        759.82,
+        805.26
+      ]
+    },
+    {
+      "id": "NodeId14",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "pos": [
+        587.17,
+        840.92
+      ]
+    },
+    {
+      "id": "NodeId15",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        601.13,
+        -181.61
+      ]
+    },
+    {
+      "id": "NodeId16",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "pos": [
+        424.22,
+        -99.8
+      ]
+    },
+    {
+      "id": "NodeId17",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1225.19,
+        -28.53
+      ]
+    },
+    {
+      "id": "NodeId18",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "pos": [
+        1035.6,
+        -199.54
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "http://exmple.org/UniversityOntologyInstu",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": " Institute",
+      "pos": [
+        1034.05,
+        470
+      ]
+    },
+    {
+      "id": "NodeId20",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1285.69,
+        477.77
+      ]
+    },
+    {
+      "id": "NodeId21",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "pos": [
+        1186.79,
+        689.1
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty3",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty6",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty10",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty11",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty12",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty13",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty14",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty15",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty16",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty17",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty18",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty19",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty22",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty23",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty2",
+      "iri": "http://exmple.org/UniversityOntologyobjectProperty2",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Subclass of",
+      "domain": "Class4",
+      "range": "Class2",
+      "pos": [
+        114.81,
+        451.92
+      ]
+    },
+    {
+      "id": "objectProperty3",
+      "iri": "http://exmple.org/UniversityOntologyobjectProperty3",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Subclass of",
+      "domain": "Class3",
+      "range": "Class2",
+      "pos": [
+        106.09,
+        626.91
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://exmple.org/UniversityOntologyteach",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "teach",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class3",
+      "range": "Class4",
+      "pos": [
+        271.77,
+        560.82
+      ]
+    },
+    {
+      "id": "objectProperty6",
+      "iri": "http://exmple.org/UniversityOntologyconsist_of",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "consist of",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class5",
+      "range": "Class6",
+      "pos": [
+        804.93,
+        77.41
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://exmple.org/UniversityOntologyhas",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "has",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class6",
+      "range": "Class7",
+      "pos": [
+        617.72,
+        326.36
+      ]
+    },
+    {
+      "id": "objectProperty8",
+      "iri": "http://exmple.org/UniversityOntologywork",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "work",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class3",
+      "range": "Class7",
+      "pos": [
+        442.77,
+        648.09
+      ]
+    },
+    {
+      "id": "objectProperty9",
+      "iri": "http://exmple.org/UniversityOntologystudy",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "study",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class4",
+      "range": "Class7",
+      "pos": [
+        451.5,
+        473.1
+      ]
+    },
+    {
+      "id": "datatypeProperty10",
+      "iri": "http://exmple.org/UniversityOntologyhave",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "age",
+      "domain": "Class2",
+      "range": "NodeId9",
+      "pos": [
+        -94.31,
+        369.89
+      ]
+    },
+    {
+      "id": "datatypeProperty11",
+      "iri": "http://exmple.org/UniversityOntologyname",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "first name",
+      "domain": "Class2",
+      "range": "NodeId10",
+      "pos": [
+        -114,
+        650.59
+      ]
+    },
+    {
+      "id": "datatypeProperty12",
+      "iri": "http://exmple.org/UniversityOntologylast_name",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "last name",
+      "domain": "Class2",
+      "range": "NodeId11",
+      "pos": [
+        -176.14,
+        474.04
+      ]
+    },
+    {
+      "id": "datatypeProperty13",
+      "iri": "http://exmple.org/UniversityOntologytitle_Department",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "title Department",
+      "domain": "Class7",
+      "range": "NodeId12",
+      "pos": [
+        716.24,
+        460.42
+      ]
+    },
+    {
+      "id": "datatypeProperty14",
+      "iri": "http://exmple.org/UniversityOntologycount_of_student",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "count  of professor",
+      "domain": "Class7",
+      "range": "NodeId13",
+      "pos": [
+        700.58,
+        699.62
+      ]
+    },
+    {
+      "id": "datatypeProperty15",
+      "iri": "http://exmple.org/UniversityOntologycount_of_Student",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "count of Student",
+      "domain": "Class7",
+      "range": "NodeId14",
+      "pos": [
+        602.34,
+        720.45
+      ]
+    },
+    {
+      "id": "datatypeProperty16",
+      "iri": "http://exmple.org/UniversityOntologytitle_Faculty",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "title Faculty",
+      "domain": "Class6",
+      "range": "NodeId15",
+      "pos": [
+        606.18,
+        -64.61
+      ]
+    },
+    {
+      "id": "datatypeProperty17",
+      "iri": "http://exmple.org/UniversityOntologycount__of_Department",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "count  of Department",
+      "domain": "Class6",
+      "range": "NodeId16",
+      "pos": [
+        505.98,
+        -16.56
+      ]
+    },
+    {
+      "id": "datatypeProperty18",
+      "iri": "http://exmple.org/UniversityOntologytitle_University",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "title University",
+      "domain": "Class5",
+      "range": "NodeId17",
+      "pos": [
+        1121.78,
+        12.69
+      ]
+    },
+    {
+      "id": "datatypeProperty19",
+      "iri": "http://exmple.org/UniversityOntologycount_of_faculty",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "count of faculty",
+      "domain": "Class5",
+      "range": "NodeId18",
+      "pos": [
+        1019.17,
+        -88.27
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "http://exmple.org/UniversityOntologyConsist_of",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Consist of",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class5",
+      "range": "Class19",
+      "pos": [
+        1015.48,
+        266.23
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "http://exmple.org/UniversityOntologyHas",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "Has",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class19",
+      "range": "Class7",
+      "pos": [
+        828.27,
+        515.19
+      ]
+    },
+    {
+      "id": "datatypeProperty22",
+      "iri": "http://exmple.org/UniversityOntologytitle_Institute",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "title Institute",
+      "domain": "Class19",
+      "range": "NodeId20",
+      "pos": [
+        1172.36,
+        474.27
+      ]
+    },
+    {
+      "id": "datatypeProperty23",
+      "iri": "http://exmple.org/UniversityOntologycount_of_Department",
+      "baseIri": "http://exmple.org/UniversityOntology",
+      "label": "count of Department",
+      "domain": "Class19",
+      "range": "NodeId21",
+      "pos": [
+        1121.23,
+        595.06
+      ]
+    }
+  ]
 }
